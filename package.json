@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://NataliiaHrynchuk.github.io/goit-js-hw-10",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
@@ -12,13 +12,14 @@
     "url": "git+https://github.com/NataliiaHrynchuk/goit-js-hw-10.git"
   },
   "keywords": [],
-  "author": "Nataliia Hrynchuk <alexander.repeta@gmail.com>",
+  "author": "Nataliia Hrynchuk <natagrinchukk@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NataliiaHrynchuk/goit-js-hw-10/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

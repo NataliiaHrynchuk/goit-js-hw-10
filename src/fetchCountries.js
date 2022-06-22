@@ -6,11 +6,7 @@ export const fetchCountries = ({ name }) => {
         .then(response => {
             return response.json();
         })
-        .then( countries  => {
-            console.log(countries);   
-            return countries;
-           
-        })
+        
         .catch(error => {
             console.log(error);
         });
